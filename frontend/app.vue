@@ -27,6 +27,10 @@
 <script setup>
 const { data: profile, pending, error } = await useFetch('http://localhost:8000/api/profiles/1')
 
+useHead({
+  title: 'Braja Santika Profile'
+})
+
 const getPlatformIcon = (platform) => {
   const iconMap = {
     twitter: 'twitter',
