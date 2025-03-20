@@ -28,7 +28,6 @@ This is a full-stack project showcasing a profile page with a backend API and a 
 6. Start the server:
    ```bash
    php artisan serve
-```
 
 ### Frontend
 1. Navigate to the `frontend` directory:
@@ -40,14 +39,10 @@ This is a full-stack project showcasing a profile page with a backend API and a 
 3. Start the development server:
    ```bash
    npm run dev
-```
 
 ### Project Structure
 - `backend/`: Contains the Laravel backend code.
 - `frontend/`: Contains the Nuxt.js frontend code.
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 MIT
